@@ -1,0 +1,101 @@
+html{
+ background-color: rgb(223, 204, 240);
+}
+body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 8px;
+        
+}
+@media only screen and (max-width: 700px){
+    html{
+        background-color: rgb(174, 121, 174);
+    }
+    .container{
+    background-color: lavender;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    padding-bottom: 50px;  
+    padding-top: 50px;
+    }
+    img{
+       width: 150px;
+       padding-right: 15px;
+       padding-left: 15px;
+       border-radius: 8px;
+    }
+    h1{
+          text-align: center;
+          font-size: 50px;
+          color: white;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px){
+    html{
+            background-color: rgb(68, 54, 68);
+        }
+        .container{
+        background-color: rgb(170, 170, 204);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 4px;
+        padding-bottom: 50px;  
+        padding-top: 50px;
+        }
+        img{
+           width: 100px;
+           padding-right: 15px;
+           padding-left: 15px;
+           border-radius: 8px;
+        }
+        h1{
+              text-align: center;
+              font-size: 25px;
+              color: rgb(218, 201, 201);
+        }
+        p{
+            text-align: center;
+            font-size: 10px;
+        }
+    }
